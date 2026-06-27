@@ -1,2 +1,3 @@
 0b24a12a-5682-41cf-bb50-b91c977ec82c autoenable=true encryption=none externaltype=openneuro name=openneuro type=external url=https://openneuro.org/git/0/ds005486
+18e8cdaa-0640-4763-b778-1b344348b06c autoenable=true bucket=nemar datacenter=us-east-2 encryption=none fileprefix=on005486/objects/ host=s3.amazonaws.com name=nemar-s3 port=80 protocol=https signature=v4 storageclass=STANDARD type=S3 timestamp=1782534710s
 81462577-73b5-451e-b34a-d8bdfa04c1c4 autoenable=true bucket=openneuro.org datacenter=US encryption=none exporttree=yes fileprefix=ds005486/ host=s3.amazonaws.com name=s3-PUBLIC partsize=1GiB port=80 public=no publicurl=https://s3.amazonaws.com/openneuro.org storageclass=STANDARD type=S3 versioning=yes timestamp=1782534707s

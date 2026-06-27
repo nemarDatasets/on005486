@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "PREDICT",
+  "description": "PREDICT is an EEG dataset containing recordings from participants with chronic pain conditions. The dataset includes resting-state and task-based EEG recordings along with clinical and demographic information. This dataset is mirrored on NEMAR from OpenNeuro (ds005486) and is intended to support research on predictive biomarkers and neural mechanisms of chronic pain.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,38 +21,6 @@
     "Siobhan M. Schabrun": {},
     "David A. Seminowicz": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds005486.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on005486",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005486",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".eeg",
-    ".json",
-    ".md",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "PREDICT is an EEG dataset containing recordings from participants with chronic pain conditions. The dataset includes resting-state and task-based EEG recordings along with clinical and demographic information. This dataset is mirrored on NEMAR from OpenNeuro (ds005486) and is intended to support research on predictive biomarkers and neural mechanisms of chronic pain.",
   "keywords": [
     {
       "term": "EEG"
@@ -69,5 +38,37 @@
       "term": "resting-state"
     }
   ],
-  "source_hash": "83aadb36fd71fc3d4edc62b5af783ccc11a321d7ecd911379fd4186fa37c8bd9"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on005486",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005486",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005486.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "398.4 GB (1337 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "f7ba22a87f0c454a32b93c17367889b3244008aecd0fdace4053152115a27312"
 }

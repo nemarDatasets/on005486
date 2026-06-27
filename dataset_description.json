@@ -1,22 +1,28 @@
 {
-    "Name": "PREDICT",
-    "BIDSVersion": "1.6.0",
-    "Authors": [
-        "Nahian S. Chowdhury",
-        "Chuan Bi",
-        "Andrew J. Furman",
-        "Alan KI Chiang",
-        "Patrick Skippen",
-        "Emily Si",
-        "Samantha K Millard",
-        "Sarah M. Margerison",
-        "Darrah Spies",
-        "Michael L. Keaser",
-        "Joyce T. Da Silva",
-        "Shuo Chen",
-        "Siobhan M. Schabrun",
-        "David A. Seminowicz"
-    ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds005486.v1.0.1",
-    "License": "CC0"
+  "Name": "PREDICT",
+  "BIDSVersion": "1.6.0",
+  "Authors": [
+    "Nahian S. Chowdhury",
+    "Chuan Bi",
+    "Andrew J. Furman",
+    "Alan KI Chiang",
+    "Patrick Skippen",
+    "Emily Si",
+    "Samantha K Millard",
+    "Sarah M. Margerison",
+    "Darrah Spies",
+    "Michael L. Keaser",
+    "Joyce T. Da Silva",
+    "Shuo Chen",
+    "Siobhan M. Schabrun",
+    "David A. Seminowicz"
+  ],
+  "DatasetDOI": "10.82901/nemar.on005486",
+  "License": "CC0",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds005486.v1.0.1"
+    }
+  ],
+  "Version": "1.0.0"
 }

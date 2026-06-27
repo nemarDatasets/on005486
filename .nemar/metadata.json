@@ -1,0 +1,40 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005486",
+  "source": "openneuro",
+  "source_id": "ds005486",
+  "title": "PREDICT",
+  "authors": {
+    "Nahian S. Chowdhury": {},
+    "Chuan Bi": {},
+    "Andrew J. Furman": {},
+    "Alan KI Chiang": {},
+    "Patrick Skippen": {},
+    "Emily Si": {},
+    "Samantha K Millard": {},
+    "Sarah M. Margerison": {},
+    "Darrah Spies": {},
+    "Michael L. Keaser": {},
+    "Joyce T. Da Silva": {},
+    "Shuo Chen": {},
+    "Siobhan M. Schabrun": {},
+    "David A. Seminowicz": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005486.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.6.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}

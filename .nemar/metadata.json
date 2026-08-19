@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "PREDICT",
-  "description": "PREDICT is an EEG dataset containing recordings from participants with chronic pain conditions. The dataset includes resting-state and task-based EEG recordings along with clinical and demographic information. This dataset is mirrored on NEMAR from OpenNeuro (ds005486) and is intended to support research on predictive biomarkers and neural mechanisms of chronic pain.",
+  "description": "The PREDICT dataset comprises electroencephalography (EEG) recordings collected to investigate predictive markers related to pain and sensorimotor processing across multiple participants and sessions. It is intended to support research into individual variability in cortical responses, contributing to studies of pain chronification and neural predictors of clinical outcomes. This dataset is mirrored on NEMAR from an original OpenNeuro release.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -26,16 +26,20 @@
       "term": "EEG"
     },
     {
-      "term": "chronic pain"
+      "term": "Pain",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010146"
     },
     {
-      "term": "neuroimaging"
+      "term": "predictive biomarkers"
     },
     {
-      "term": "biomarkers"
+      "term": "Sensorimotor Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D066191"
     },
     {
-      "term": "resting-state"
+      "term": "electroencephalography"
     }
   ],
   "related_identifiers": [
@@ -45,14 +49,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005486",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds005486.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005486",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -66,6 +70,7 @@
     ".eeg",
     ".json",
     ".md",
+    ".tsv",
     ".vhdr",
     ".vmrk",
     ".yml"

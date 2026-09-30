@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "PREDICT",
-  "description": "The PREDICT dataset comprises electroencephalography (EEG) recordings collected to investigate predictive markers related to pain and sensorimotor processing across multiple participants and sessions. It is intended to support research into individual variability in cortical responses, contributing to studies of pain chronification and neural predictors of clinical outcomes. This dataset is mirrored on NEMAR from an original OpenNeuro release.",
+  "description": "PREDICT is an EEG dataset mirrored on NEMAR from OpenNeuro (ds005486). It was collected by a group studying pain and sensorimotor neuroscience, and it is shared in BIDS format under a CC0 license.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -26,20 +26,15 @@
       "term": "EEG"
     },
     {
-      "term": "Pain",
+      "term": "Electroencephalography",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010146"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "predictive biomarkers"
+      "term": "pain"
     },
     {
-      "term": "Sensorimotor Cortex",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D066191"
-    },
-    {
-      "term": "electroencephalography"
+      "term": "BIDS"
     }
   ],
   "related_identifiers": [
@@ -64,7 +59,7 @@
     "eeg"
   ],
   "sizes": [
-    "398.4 GB (1337 files)"
+    "371 GB (1337 files)"
   ],
   "formats": [
     ".eeg",
